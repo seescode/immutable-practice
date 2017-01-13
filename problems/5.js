@@ -1,13 +1,13 @@
 const check = require('../check.js');
 
 /**
- * Increment by 1 all values in input
+ * Problem: Sum the values in an array using reduce()
  */
 
 var input = [1, 2, 3];
-var expect = [2, 3, 4];
+var expect = 6;
 
 // YOUR CODE
-var yourCode; 
+var yourCode;
 
 check(input, yourCode, expect);
