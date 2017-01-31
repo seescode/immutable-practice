@@ -3,8 +3,8 @@ const testSubject = new Rx.Subject();
 
 
 /**
- * Use first() to get only the first element
- * https://www.learnrxjs.io/operators/filtering/first.html
+ * Use mapTo to map all the results to 10
+ * https://www.learnrxjs.io/operators/transformation/mapto.html
  */
 
 // YOUR CODE
@@ -15,4 +15,4 @@ testSubject.next(1);
 testSubject.next(2);
 testSubject.next(3);
 
-//expected: 1
+//expected: 10

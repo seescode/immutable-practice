@@ -3,9 +3,9 @@ const testSubject = new Rx.Subject();
 
 
 /**
- * Use mapTo to map all the results to 10 and only get the first one by using first()
- * https://www.learnrxjs.io/operators/transformation/mapto.html
- * https://www.learnrxjs.io/operators/filtering/first.html
+ * Use skip() and take() to only get the middle number 2
+ * https://www.learnrxjs.io/operators/filtering/skip.html
+ * https://www.learnrxjs.io/operators/filtering/take.html
  */
 
 // YOUR CODE
@@ -16,4 +16,4 @@ testSubject.next(1);
 testSubject.next(2);
 testSubject.next(3);
 
-//expected: 10
+//expected: 2
