@@ -7,18 +7,17 @@ function getResultsFromFakeApi() {
 }
 
 /**
- * Use mergeMap for getting values from another observable. 
- * Use toArray() to merge all the values being pumped out of the 
- * fake api observable and then sum the total result of everything.
+ * Use mergeMap for getting values from getResultsFromFakeApi(). 
+ * Use reduce() to sum the values.
  * https://www.learnrxjs.io/operators/transformation/mergemap.html
  */
 
 // YOUR CODE
 testSubject
 
-
-testSubject.next(1);
-testSubject.next(2);
-testSubject.next(3);
+testSubject.next();
+testSubject.next();
+testSubject.next();
+testSubject.complete();
 
 //Expected: 90

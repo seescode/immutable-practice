@@ -14,5 +14,6 @@ testSubject;
 testSubject.next(1);
 testSubject.next(2);
 testSubject.next(3);
+testSubject.complete();
 
 //expected: 3

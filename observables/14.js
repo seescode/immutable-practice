@@ -8,7 +8,7 @@ const testSubject = new Rx.Subject();
  */
 
 // YOUR CODE
-testSubject;
+testSubject
 
 
 testSubject.next(1);
