@@ -4,6 +4,7 @@
     "lodash": "^4.17.4",
     "prompt": "^1.0.0",
     "reselect": "^2.5.4",
-    "rxjs": "5.0.0-beta.12"
+    "rxjs": "5.0.0-beta.12",
+    "normalizr": "^3.1.0"
   }
 }
